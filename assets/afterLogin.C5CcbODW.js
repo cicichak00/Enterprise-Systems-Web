@@ -1,0 +1,1 @@
+import{n as i}from"./appSystemNavigation.Q8hYgOIC.js";import{r as n}from"./index-g7Dyz4yA.js";function o(o,t=""){if(null!=o&&""!=o){const i=o.split("?")[0];if(!n.isLoginPage(i)&&n.isJoinInvitePage(i))return void n.nextLogin(o)}n.clearLoginRedirect(),i(t).finally(()=>{n.triggerAfterLogin()})}export{o as c};
